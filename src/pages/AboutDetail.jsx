@@ -2,8 +2,11 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 
 const AboutDetail = () => {
+
+    const {id} = useParams()
+
   return (
-    <div>AboutDetail</div>
+    <div>{id}의 AboutDetail 페이지</div>
   )
 }
 
